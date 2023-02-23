@@ -1,6 +1,6 @@
 {
-    "name": "mpietrucha/package-starter",
-    "description": "Package starter",
+    "name": "mpietrucha/:name",
+    "description": ":description",
     "type": "liblary",
     "license": "MIT",
     "autoload": {
