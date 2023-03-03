@@ -1,6 +1,6 @@
 {
-    "name": "mpietrucha/package-starter",
-    "description": "Package starter",
+    "name": "mpietrucha/:name",
+    "description": ":description",
     "type": "liblary",
     "license": "MIT",
     "autoload": {
@@ -24,5 +24,12 @@
     },
     "require-dev": {
         "symfony/var-dumper": "^6.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mpietrucha\\:vendor\\:provider"
+            ]
+        }
     }
 }
